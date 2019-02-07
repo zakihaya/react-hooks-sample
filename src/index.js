@@ -4,6 +4,7 @@ import ReactDOM from "react-dom";
 import { UseStateSample } from "./UseStateSample";
 import { UseStateSample2 } from "./UseStateSample2";
 import { UseEffectSample1 } from "./UseEffectSample1";
+import { UseContextSample } from "./UseContextSample";
 
 import "./styles.css";
 
@@ -18,6 +19,9 @@ function App() {
 
       <h1>UseEffectSample1</h1>
       <UseEffectSample1 />
+
+      <h1>UseContextSample</h1>
+      <UseContextSample />
     </div>
   );
 }
